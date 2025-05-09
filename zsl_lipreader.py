@@ -101,7 +101,7 @@ def train():
         print(f"[Epoch {epoch+1}] Loss: {epoch_loss / len(dataloader):.4f}")
     
     # Save the trained model
-    model_path = "zsl_lipreader_model.pth"
+    model_path = "zsl_lipreader_model_new.pth"
     torch.save(model.state_dict(), model_path)
     print(f"[INFO] Model saved to {model_path}")
     
