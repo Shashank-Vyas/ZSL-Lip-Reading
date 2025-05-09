@@ -2,9 +2,11 @@ import os
 import glob
 import json
 
-ALIGN_DIR = 'Dataset/alignments/train'
-VIDEO_DIR = 'Dataset/videos/train'
-OUTPUT_FILE = 'data/train_segments.json'
+# ALIGN_DIR = 'Dataset/alignments/train'
+ALIGN_DIR = 'Dataset/alignments/test'
+# VIDEO_DIR = 'Dataset/videos/train'
+VIDEO_DIR = 'Dataset/videos/test'
+OUTPUT_FILE = 'data/test_segments.json'
 FRAME_RATE = 1000 / 40  # 25 fps -> 1 frame = 40 ms
 
 def parse_align_file(align_path, video_filename):
