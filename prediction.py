@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 # Load model
 model = LipReader(embedding_dim=300)  # or whatever you used
-model.load_state_dict(torch.load("zsl_lipreader_model.pth"))  # Load your trained model
+model.load_state_dict(torch.load("zsl_lipreader_model_new.pth"))  # Load your trained model
 model.eval()
 
 # Load test data
