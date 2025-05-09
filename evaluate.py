@@ -10,7 +10,7 @@ import pickle
 # Constants
 test_data_dir = 'scripts/data/mouth_rois/test_rois'  # Change if your test data is elsewhere
 label_embeddings_path = 'scripts/data/label_embeddings.pkl'
-model_path = 'zsl_lipreader_model.pth'
+model_path = 'zsl_lipreader_model_new.pth'
 image_size = 96
 batch_size = 4
 
